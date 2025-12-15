@@ -1,58 +1,77 @@
-# 😲 Streamlit based Deep Emotion Detector 😄 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
-A simple streamlit based webapp to process text and detect emotions from the underlying text piece built using "EmoRoBERTa" Model from Huggingface Transformers 🤗.
+# AI Internet Mood Content Engine
 
-![text](https://user-images.githubusercontent.com/29462447/156898269-e6154cda-4e4c-4113-96c6-dc7fcd25dbf9.gif)
-![doc](https://user-images.githubusercontent.com/29462447/156898267-8b33d311-6d11-47f7-8638-c213b9cd30fc.gif)
+A lightweight AI-powered content system that converts live internet signals into short-form, visually reactive content — designed for daily posting on TikTok, IG Reels, or X.
 
-## Installation:
-* Simply run the command ***pip install -r requirements.txt*** to install the dependencies.
+This project was built as a 48-hour execution trial focused on shipping output, not prompts or explanations.
 
-## Usage:
-1. Clone this repository and install the dependencies as mentioned above.
-2. Make a directory within this cloned repository with the name `.streamlit` *(Don't forget the dot !!)*.
-3. Create a file `config.toml` in this directory *(Be aware of the file extension !!)*.
-4. Copy-Paste the following contents in this file and save :
-```
-[theme]
-primaryColor="#b11b1b"
-backgroundColor="#080e1c"
-secondaryBackgroundColor="#203659"
-textColor="#bf7c7c"
-```
-5. Navigate to the root directory of this repository and simply run the command: 
-```
-streamlit run app.py
-```
-6. Navigate to http://localhost:8501 in your web-browser.
-7. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading files, execute the command :
-```
-streamlit run app.py --server.maxUploadSize=1028
-```
+---
 
-## Results:
-1. Perform emotion detection on random text on the fly!
+## What this system does
 
-![text](https://user-images.githubusercontent.com/29462447/156898275-e5ec4c14-845c-4311-9396-b4703537c2ad.png)
+- Pulls **live headlines** from the internet
+- Runs **real AI emotion detection** on each headline
+- Aggregates signals into a **dominant emotional mood**
+- Visualizes results using **color, emoji, and motion**
+- Produces **camera-ready output** in seconds
 
-2. Upload your document ***(supports PDFs, Word Files, Text files)*** and perform detection of emotions from the underlying text:
+Each run generates fresh content based on what is happening in the world at that moment.
 
-![doc_1](https://user-images.githubusercontent.com/29462447/156898297-8dbc6a3a-f6ab-472b-929e-ab6cbcd9bdb8.png)
-![doc_2](https://user-images.githubusercontent.com/29462447/156898300-dbc20937-c34b-4fd5-9bfe-2b010e83e6f6.png)
+---
 
+## Why this is interesting
 
-### Running the Dockerized App
-1. Ensure you have Docker Installed and Setup in your OS (Windows/Mac/Linux). For detailed Instructions, please refer [this.](https://docs.docker.com/engine/install/)
-2. Navigate to the folder where you have cloned this repository ( where the ***Dockerfile*** is present ).
-3. Build the Docker Image (don't forget the dot!! :smile: ): 
-```
-docker build -f Dockerfile -t app:latest .
-```
-4. Run the docker:
-```
-docker run -p 8501:8501 app:latest
-```
+Most AI content demos generate scripts or captions.
 
-This will launch the dockerized app. Navigate to ***http://localhost:8501/*** in your browser to have a look at your application. You can check the status of your all available running dockers by:
-```
-docker ps
-```
+This system:
+- Uses **external live data**, not prompts
+- Makes AI output **visually obvious**
+- Behaves like a **content pipeline**, not a one-off tool
+- Can be run repeatedly without manual work
+
+It’s designed to feel alive on screen, which is critical for short-form platforms.
+
+---
+
+## How this can scale
+
+- Run on a schedule (hourly / daily)
+- Add more data sources (social trends, forums, news)
+- Auto-record and auto-post clips
+- Apply brand-specific visual themes
+- Extend emotion aggregation into dashboards or alerts
+
+The core logic stays the same, only the input signals change.
+
+---
+
+## Demo flow (what the video shows)
+
+1. Live headlines load automatically  
+2. Each headline is classified by emotion  
+3. Visual elements react instantly  
+4. A dominant mood snapshot is computed  
+5. The system updates without manual input  
+
+The same flow works every time the app runs.
+
+---
+
+## Tech stack (kept intentionally simple)
+
+- Python
+- Streamlit
+- Hugging Face Transformers (open sentiment model)
+- PyMuPDF, python-docx for document parsing
+
+Tool choice was secondary to speed and reliability.
+
+---
+
+## Setup
+
+```bash
+# install dependencies
+python -m pip install streamlit transformers torch pymupdf python-docx
+
+# run the app
+python -m streamlit run app.py
