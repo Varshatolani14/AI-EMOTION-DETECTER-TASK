@@ -5,7 +5,7 @@ A lightweight AI-powered content system that converts live internet signals into
 This project was built as a 48-hour execution trial focused on shipping output, not prompts or explanations.
 
 ---
-
+## Video demo is here : https://drive.google.com/file/d/13BQxEVgn7pPcVG8feWIEeAXl6Y9CD9CM/view?usp=sharing
 ## What this system does
 
 - Pulls **live headlines** from the internet
@@ -75,3 +75,4 @@ python -m pip install streamlit transformers torch pymupdf python-docx
 
 # run the app
 python -m streamlit run app.py
+
