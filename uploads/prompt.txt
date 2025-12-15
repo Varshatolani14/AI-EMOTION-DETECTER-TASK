@@ -1,0 +1,105 @@
+pls make my resume exactly according to the jd pls add extra project whoich exactly matches this jd by urselfa lso pls add all the related keywords possible for ats and pls make my resume like that it appreases at 1st place to the reruiter make ats believe i am the best candidate for this job
+make it undetectable as ai written
+
+
+pls make my resume accrxing to exactly this jd exactly for this jovb u can change my projects which i can find online GitHub  repos  and add any new project of your own which perfectly fits it and pls include all the keyworda and everything and make my resume come at 1st plcae in ats and in recruiters this is jd and my 2 resumes
+
+make it perfect for ats and 1 pager latex  code for this jd pls make it like i was made for this job pls make ats to believe i am the 1st candidate which has to be taken above any other candidate
+keep culture of company in mind what kinda resumes it selects find all the selected resumes of this positin of previous and chnage everything according to that
+
+
+
+2
+
+behave like ats of the company after study about that company ats hpw it works and what things it considers ,can u consider every side of ats of company what they can analyse and give me full proff ats which it wont surely reject and make it pass and think me as the top candidate which should be ranked in 0.000001 top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CV Prompts
+
+
+Jobs Insider
+PROJECTS Section Prompt
+
+**Please read the notes at the end
+_____________________
+
+Here are four quick prompts to customise that CV like a pro!
+
+📌For Skills Section👇🏽:
+“Draft a highly optimised skills section for my CV that covers all the skills required for this job in two sub sections: Functional Competencies and Technical tools, make sure not to miss any keyword that the ATS might scan for and refer to the job description below to draft the section and pick skills keywords: (Insert Job Description)”
+“Please write it in short, in a list format, separated by vertical bars, following this example:
+-Functional Competencies: Data Analysis| Project Management| Etc.
+-Technical Tools: SQL| Python”
+📌Keyword Optimisation👇🏽
+Below is a job description for a role that i'm interested in, kindly parse it and provide me with a list of top 15 keywords in the order of priority that should be in my CV to impress the recruiter and ensure that my CV passes the ATS keyword scan. (Paste the JD)”
+Once ChatGPT spills these keywords out, just spread them throughout your CV, ensuring that they are impactful and make sense
+📌Professional Summary👇🏽
+“Write a compelling 3-line professional summary for my CV using an achievement-oriented tone. Within the summary, you need to give evidence of my success as a candidate in the roles I plan on applying. You can use multiple evidence, but make sure each of the three lines has evidence. Use evidence from my work experience (paste worked)
+
+
+
+
+projects 
+
+for ml and fata science feilds so basically u have to take 1 existing online GitHub repo with some little changes wrequired at that project can be from anywhere available on internet , just change its actual name to something else related to jd so that company people do not finf  that i am taking from someone else git repo also another 2 u can choose 2 of them which perfectly fits almostthe criteria of job along with that u can make some changes in te description of these repos to exactly math the jd u can just write anything in resume later durig interview we can change just make my resume loo exactly like what they are looking for without sounding like ai at all and also pls properly humanise my resume before giving it 
+https://github.com/Varshatolani14/AI-TikTok-Video-Generation-Pipeline
+
+https://github.com/Varshatolani14/AI-Trend-Replication-Lab
+
+https://github.com/Varshatolani14/AI-Voiceover-Storytelling-Engine
+
+https://github.com/Varshatolani14/Shopping-Trends-Analysis
+
+https://github.com/Varshatolani14/Agentic-middleware-prototype
+
+https://github.com/Varshatolani14/Outcomes_Of-Predictive-Healthcare-Analytics-Modeling-Patient
+
+https://github.com/Varshatolani14/ML-FACIAL-RECOGNITION
+
+https://github.com/Varshatolani14/Emotion-Detection-Project
+
+
+
+
+
+
+
+
+
+
+
+is there any way u can improve this resume 
+
+think urself as company ats , check ats score and tell me which things can make me behind even from a 1 candidate pls change it but keep my degrees and work experience same  , u can add keywords in that 
+
+
+anything still u think can be improved opls imprve it except things that needs certificates
+
+
+
+
+
+
+
+
+
+CV Review Prompt👇🏽
+"You are a career coach and recruitment expert with over 10 years of experience reviewing CVs for [insert industry, e.g. software engineering / marketing / energy sector]. Review my CV line by line for:
+-Impact and clarity
+-Relevance to [insert job role/title]
+-ATS optimisation (Applicant Tracking Systems)
+-Grammar, structure, and formatting
+Tell me what’s strong, what needs improvement, and suggest better wording where needed. Provide examples. Here is my CV:
+(Paste your CV or upload the file)"
